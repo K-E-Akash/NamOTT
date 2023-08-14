@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400&family=REM&family=Roboto+Slab&family=Rubik&family=Ubuntu:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat:wght@300;400&family=Nanum+Gothic&family=REM&family=Roboto+Slab&family=Rubik&family=Ubuntu:wght@300;400&display=swap');
+
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+* {
+    margin: 0px;
+}
+
+.nav-logo img {
+    width: 185px;
+    margin: 6px 0px 0px 25px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    /* backdrop-filter: blur(10px); */
+}
+
+.nav-items {
+    position: absolute;
+    right: 20px;
+}
+
+.nav-items a {
+    color: rgb(193, 193, 193);
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.nav-items a:hover {
+    color: rgb(242, 255, 58);
+}
+
+.carousel-item img{
+    margin: 98px 230px 18px 230px;
+    width: 70%;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.carousel-control-prev {
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.carousel-control-next {
+    margin-right: 150px;
+}
+
+.title {
+    font-size: 60px;
+    margin-left: 15px;
+    color: rgb(220, 220, 220);
+    margin-bottom: 25px;
+}
+
+.title-last-name {
+    font-size: 60px;
+    margin-left: 8px;
+    color: rgb(242, 255, 58);
+}
+
+.movie-poster img {
+    width: 232px;
+    height: 360px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.movie-poster img:hover {
+    transform: rotateY(360deg);
+    transition: all 1s ease-out;
+}
+
+.section-details {
+    color: rgb(79, 92, 93);
+    width: 60%;
+    margin: 20px 300px 30px 300px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+}
+
+.about {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about p {
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    font-size: 15px;
+    color: rgb(242, 255, 58);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.tandc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.about img {
+    width: 250px;
+    margin: 60px;
+}
+
+.copyright {
+    font-size: 15px;
+    color: rgb(180, 180, 180);
+}
+
+.connect-to-us {
+    margin-top: 35px;
+}
+
+.connects {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.connects img {
+    width: 35px;
+    border-radius: 50%;
+    margin: 8px;
+}
