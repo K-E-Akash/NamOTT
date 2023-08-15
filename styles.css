@@ -63,7 +63,7 @@ nav {
     font-size: 60px;
     margin-left: 15px;
     color: rgb(220, 220, 220);
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .title-last-name {
@@ -139,4 +139,8 @@ nav {
     width: 35px;
     border-radius: 50%;
     margin: 8px;
+}
+
+#frequently-watched {
+    height: 80px;
 }
